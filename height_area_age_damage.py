@@ -29,7 +29,7 @@ height_vs_damage['2'] = height_dmg_2
 height_vs_damage['3'] = height_dmg_3
 height_vs_damage['4'] = height_dmg_4
 height_vs_damage['5'] = height_dmg_5
-height_vs_damage.to_csv('space_height_damage.csv')
+height_vs_damage.to_csv('space_height_damage.csv', index=False)
 
 # extracting area
 area_dmg_1 = data_dmg_1['area_percentage']
@@ -49,7 +49,7 @@ area_vs_damage['2'] = area_dmg_2
 area_vs_damage['3'] = area_dmg_3
 area_vs_damage['4'] = area_dmg_4
 area_vs_damage['5'] = area_dmg_5
-area_vs_damage.to_csv('space_area_damage.csv')
+area_vs_damage.to_csv('space_area_damage.csv', index=False)
 
 # task 10
 
@@ -78,7 +78,7 @@ age1_h_v_d['2'] = h_age1_d2['height_percentage']
 age1_h_v_d['3'] = h_age1_d3['height_percentage']
 age1_h_v_d['4'] = h_age1_d4['height_percentage']
 age1_h_v_d['5'] = h_age1_d5['height_percentage']
-age1_h_v_d.to_csv('age1_h_v_d.csv')
+age1_h_v_d.to_csv('age1_h_v_d.csv', index=False)
 
 # extracting height age group 2
 h_age2_d1 = data_10to50[data_10to50['damage_grade'] == 1]
@@ -98,7 +98,7 @@ age2_h_v_d['2'] = h_age2_d2['height_percentage']
 age2_h_v_d['3'] = h_age2_d3['height_percentage']
 age2_h_v_d['4'] = h_age2_d4['height_percentage']
 age2_h_v_d['5'] = h_age2_d5['height_percentage']
-age2_h_v_d.to_csv('age2_h_v_d.csv')
+age2_h_v_d.to_csv('age2_h_v_d.csv', index=False)
 
 # extracting height age group 3
 h_age3_d1 = data_gt_50[data_gt_50['damage_grade'] == 1]
@@ -118,7 +118,7 @@ age3_h_v_d['2'] = h_age3_d2['height_percentage']
 age3_h_v_d['3'] = h_age3_d3['height_percentage']
 age3_h_v_d['4'] = h_age3_d4['height_percentage']
 age3_h_v_d['5'] = h_age3_d5['height_percentage']
-age3_h_v_d.to_csv('age3_h_v_d.csv')
+age3_h_v_d.to_csv('age3_h_v_d.csv', index=False)
 
 # Q2 - Area vs Damage in 3 Age groups...{age < 10, 10 <= age < 50, and age >= 50}
 # extracting area age group 1
@@ -128,7 +128,7 @@ age1_a_v_d['2'] = h_age1_d2['area_percentage']
 age1_a_v_d['3'] = h_age1_d3['area_percentage']
 age1_a_v_d['4'] = h_age1_d4['area_percentage']
 age1_a_v_d['5'] = h_age1_d5['area_percentage']
-age1_a_v_d.to_csv('age1_a_v_d.csv')
+age1_a_v_d.to_csv('age1_a_v_d.csv', index=False)
 
 # extracting area age group 2
 age2_a_v_d = pd.DataFrame()
@@ -137,7 +137,7 @@ age2_a_v_d['2'] = h_age2_d2['area_percentage']
 age2_a_v_d['3'] = h_age2_d3['area_percentage']
 age2_a_v_d['4'] = h_age2_d4['area_percentage']
 age2_a_v_d['5'] = h_age2_d5['area_percentage']
-age2_a_v_d.to_csv('age2_a_v_d.csv')
+age2_a_v_d.to_csv('age2_a_v_d.csv', index=False)
 
 # extracting area age group 3
 age3_a_v_d = pd.DataFrame()
@@ -146,4 +146,4 @@ age3_a_v_d['2'] = h_age3_d2['area_percentage']
 age3_a_v_d['3'] = h_age3_d3['area_percentage']
 age3_a_v_d['4'] = h_age3_d4['area_percentage']
 age3_a_v_d['5'] = h_age3_d5['area_percentage']
-age3_a_v_d.to_csv('age3_a_v_d.csv')
+age3_a_v_d.to_csv('age3_a_v_d.csv', index=False)
