@@ -17,7 +17,7 @@ It seemed intuitive to take a look and analyze how the number of floors in a bui
 
 
 ### Task4:Superstructure Materials VS Damage Grade 
-Check the code of this part by using [superstructure.py](https://github.com/yongyx/ECE143_Earthquake_Analysis/blob/main/superstructure.py)
-**CONCLUSION:**
+Check the code of this part by using [superstructure.py](https://github.com/yongyx/ECE143_Earthquake_Analysis/blob/main/superstructure.py)  
+#### CONCLUSION:
 * For buildings using single material on superstructure, rc engineered & rc-non-engineered & cement-mortar-brick can lead to low damage grade
 * For buildings using combined materials on superstructure, combining natural materails like timber,bambo, adobe mud with rc-engineered can avoid serious damage. 
