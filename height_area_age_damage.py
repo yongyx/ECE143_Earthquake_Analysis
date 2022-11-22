@@ -1,5 +1,10 @@
 import pandas as pd
 
+'''
+  This python script takes in the pre_processed data file and outputs according pandas dataframe csv files of different analysis comparisons
+'''
+
+
 # IMPORTANT: edit appropriate file path
 space_data = pd.read_csv('preprocessed_data.csv', usecols = ['area_percentage','height_percentage','damage_grade','age'])
 
