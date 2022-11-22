@@ -1,3 +1,12 @@
+"""
+Task 2: analyze the relationship between superstructures' materials and damage grade
+
+* SITUATION 1: ONE MATERIALS mean damage grade
+** SITUATION 1.1:ONE MATERIALS number of differnt damage grade (all)
+** SITUATION 1.2:ONE MATERIALS number of differnt damage grade (PARTIAL)
+
+* SITUATION 2: TWO MATERIALS
+"""
 import pandas as pd
 import numpy as np
 import seaborn as sns
