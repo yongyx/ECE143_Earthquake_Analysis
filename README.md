@@ -15,9 +15,10 @@ To study the impact of the building's age feature, land feature ('land_surface_c
 #### ```Number of Floors in Building vs Damage Grade```
 It seemed intuitive to take a look and analyze how the number of floors in a building could cause more or lesser damage. We represented the distribution in a stacked barplot, and then visualized it in a line plot of the average damage grade vs. the number of floors in a building. We came to a conclusion that there is some increasing trend in damage grade for low rise buildings, but the damage startes decreasing as the number of floors go past four. We assume that there is some underlying reason for this pattern, like the materials used for example.
 
-
-### Task4:Superstructure Materials VS Damage Grade 
+---
+### Task 4: Superstructure Materials VS Damage Grade 
 **Note:** Check the code of this part by using [superstructure.py](https://github.com/yongyx/ECE143_Earthquake_Analysis/blob/main/superstructure.py)  
 #### CONCLUSION:
 * For buildings using single material on superstructure, rc-engineered & rc-non-engineered & cement-mortar-brick can lead to low damage grade.
 * For buildings using two materials on superstructure, combining natural materails like timber,bambo, adobe mud with rc-engineered can avoid serious damage. 
+---
