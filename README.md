@@ -11,3 +11,6 @@ To perform the preprocessing step, download all 3 required files and run "data_p
 The earthquake dataset includes 39 columns plus one output column called "damage_grade". We study how the individual features as well as their interactions correlate with the building's damage level. 
 
 To study the impact of the building's age feature, land feature ('land_surface_condition') and structure features (i.e. 'foundation_type', 'ground_floor_type', 'roof_type', 'count_floor_pre_eq', 'position'), run "age, land features and structure features.py".
+
+#### ```Number of Floors in Building vs Damage Grade```
+It seemed intuitive to take a look and analyze how the number of floors in a building could cause more or lesser damage. We represented the distribution in a stacked barplot, and then visualized it in a line plot of the average damage grade vs. the number of floors in a building. We came to a conclusion that there is some increasing trend in damage grade for low rise buildings, but the damage startes decreasing as the number of floors go past four. We assume that there is some underlying reason for this pattern, like the materials used for example.
