@@ -16,7 +16,7 @@ To study the impact of the building's age feature, land feature ('land_surface_c
 It seemed intuitive to take a look and analyze how the number of floors in a building could cause more or lesser damage. We represented the distribution in a stacked barplot, and then visualized it in a line plot of the average damage grade vs. the number of floors in a building. We came to a conclusion that there is some increasing trend in damage grade for low rise buildings, but the damage startes decreasing as the number of floors go past four. We assume that there is some underlying reason for this pattern, like the materials used for example.
 
 #### ```Damage Grade vs Materials by Age Group```
-We wanted to see if the age of a building changed the impact that the building materials used had on the damage grade. The data is grouped in age ranges of 5 years, and only maintains features detailing the average damage rate of each material. This cut-down dataset can be reproduced by runing 'damage_by_age.py' using the 'data' dataset. It will automatically save the damage by age data to the file'material_damages_by_age_group.csv'.
+We wanted to see if the age of a building changed the impact that the building materials used had on the damage grade. The data is grouped in age ranges of 5 years, and only maintains features detailing the average damage rate of each material. This cut-down dataset can be reproduced by runing \'damage_by_age.py\' using the dataset prodcued from running \'data_preprocessing.py\'. It will automatically save the damage by age data to the file \'material_damages_by_age_group.csv\'.
 
 ---
 ### Task 4: Superstructure Materials VS Damage Grade 
