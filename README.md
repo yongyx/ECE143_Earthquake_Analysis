@@ -1,6 +1,12 @@
 # ECE143 FA22 Group 10 Earthquake Analysis
 ## Dependencies
+The following packages are needed to run this files in this repository:
 
+- pandas
+- seaborn
+- matplotlib
+- numpy
+- dython
 
 ## Data Preprocessing 
 Three data files are needed: csv_building_ownership_and_use.csv; csv_building_structure.csv; train_values.csv. 
