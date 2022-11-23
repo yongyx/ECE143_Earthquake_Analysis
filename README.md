@@ -25,3 +25,16 @@ We wanted to see if the age of a building changed the impact that the building m
 * For buildings using single material on superstructure, rc-engineered & rc-non-engineered & cement-mortar-brick can lead to low damage grade.
 * For buildings using two materials on superstructure, combining natural materails like timber,bambo, adobe mud with rc-engineered can avoid serious damage. 
 ---
+
+---
+### Task 5 & 10: Height/Area vs Damage Grade (by Age Groups)
+* Data processing for categorizing these height and area against damage grade and age is done in the file: [
+height_area_age_damage.py](https://github.com/yongyx/ECE143_Earthquake_Analysis/blob/main/height_area_age_damage.py).
+* Running this file using the output of data_preprocessing.py will output the categorized data sets.
+* The Jupyter notebook file contains visualizations of the above described processed data.
+#### CONCLUSION:
+* Buildings with higher height percentages tend to have higher damage grades.
+* Buildings with higher area percentages tend to have lower damage grades.
+* There has not been significant findings from categorizing the above characterstics by age groups.
+
+---
