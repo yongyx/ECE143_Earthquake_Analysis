@@ -19,7 +19,8 @@ They can be run using the following command: ```pip install package_name```
    ┣ height_area_age_damage.py
    ┗ superstructure.py
 +--data/
-   ┗ material_damages_by_age_group.csv
+   ┣ material_damages_by_age_group.csv
+   ┗ preprocessed_data.csv
 +--README.md/
 +--visualizations.ipynb/
 ```
