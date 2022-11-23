@@ -8,6 +8,8 @@ The following packages are needed to run this files in this repository:
 - numpy
 - dython
 
+They can be run using the following command: """pip install package_name"""
+
 ## Data Preprocessing 
 Three data files are needed: csv_building_ownership_and_use.csv; csv_building_structure.csv; train_values.csv. 
 Previous two files are downloaded from the official website http://eq2015.npc.gov.np/#/ which contain different features; we would like to combine them to make the complete dataset. The third data file is a preprocessed version provided by https://www.drivendata.org/competitions/57/nepal-earthquake/page/136/. 
