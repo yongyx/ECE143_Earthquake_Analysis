@@ -34,11 +34,12 @@ To perform the preprocessing step, download all 3 required files and run "data_p
 
 ## Data Analysis Task 
 The earthquake dataset includes 39 columns plus one output column called "damage_grade". We study how the individual features as well as their interactions correlate with the building's damage level. 
----
+
 #### ```Age, Land, and Structure Features```
 
-* To study the impact of the building's age feature, land feature ('land_surface_condition') and structure features (i.e. 'foundation_type', 'ground_floor_type', 'roof_type', 'count_floor_pre_eq', 'position'), run "age, land features and structure features.py".
+To study the impact of the building's age feature, land feature ('land_surface_condition') and structure features (i.e. 'foundation_type', 'ground_floor_type', 'roof_type', 'count_floor_pre_eq', 'position'), run "age, land features and structure features.py".
 
+---
 #### ```Number of Floors in Building vs Damage Grade```
 
 **NOTE**: Check the code of this part by using [building_count.py](https://github.com/yongyx/ECE143_Earthquake_Analysis/blob/main/building_count.py)
