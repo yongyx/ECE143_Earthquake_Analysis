@@ -56,7 +56,9 @@ We wanted to see if the age of a building changed the impact that the building m
 
 ---
 #### ```Superstructure Materials VS Damage Grade ```
-**NOTE:** Check the code of this part by using [superstructure.py](https://github.com/yongyx/ECE143_Earthquake_Analysis/blob/main/superstructure.py)  
+**NOTE:** Check the code of this part by using [superstructure.py](https://github.com/yongyx/ECE143_Earthquake_Analysis/blob/main/superstructure.py) 
+* Running superstructure.py will output the processed data sets.
+* The Jupyter notebook file contains visualizations of the above described processed data.
 #### CONCLUSION:
 * For buildings using single material on superstructure, rc-engineered & rc-non-engineered & cement-mortar-brick can lead to low damage grade.
 * For buildings using two materials on superstructure, combining natural materails like timber,bambo, adobe mud with rc-engineered can avoid serious damage. 
