@@ -19,7 +19,8 @@ They can be run using the following command: ```pip install package_name```
    ┣ height_area_age_damage.py
    ┗ superstructure.py
 +--data/
-   ┗ material_damages_by_age_group.csv
+   ┣ material_damages_by_age_group.csv
+   ┗ preprocessed_data.csv
 +--README.md/
 +--visualizations.ipynb/
 ```
@@ -54,7 +55,7 @@ The earthquake dataset includes 39 columns plus one output column called "damage
 ---
 #### ```Damage Grade vs Materials by Age Group```
 
-**NOTE:** You can run [damage_by_age.py](https://github.com/yongyx/ECE143_Earthquake_Analysis/blob/main/src/damage_by_age.py) using the dataset prodcued from running [data_preprocessing.py](https://github.com/yongyx/ECE143_Earthquake_Analysis/blob/main/src/data_preprocessing.py).
+**NOTE:** You can run [damage_by_age.py](https://github.com/yongyx/ECE143_Earthquake_Analysis/blob/main/src/damage_by_age.py) using the dataset [preprocessed_data.csv](https://github.com/yongyx/ECE143_Earthquake_Analysis/blob/main/data/preprocessed_data.csv).
 
 * We wanted to see if the age of a building changed the impact that the building materials used had on the damage grade. 
 * The data is grouped in age ranges of 5 years, and only maintains features detailing the average damage rate of each material. 
