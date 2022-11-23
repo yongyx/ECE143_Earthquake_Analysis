@@ -33,8 +33,10 @@ We are unsatisfied with the truncated version provided by the drivendata website
 
 To perform the preprocessing step, download all 3 required files and run "data_preprocessing.py". 
 
-## Data Analysis Task 
+## Data Analysis Task  
+
 The earthquake dataset includes 39 columns plus one output column called "damage_grade". We study how the individual features as well as their interactions correlate with the building's damage level. 
+
 ---
 #### ```Age, Land, and Structure Features```
 
