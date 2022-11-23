@@ -26,7 +26,6 @@ We wanted to see if the age of a building changed the impact that the building m
 * For buildings using two materials on superstructure, combining natural materails like timber,bambo, adobe mud with rc-engineered can avoid serious damage. 
 ---
 
----
 ### Task 5 & 10: Height/Area vs Damage Grade (by Age Groups)
 * Data processing for categorizing these height and area against damage grade and age is done in the file: [
 height_area_age_damage.py](https://github.com/yongyx/ECE143_Earthquake_Analysis/blob/main/height_area_age_damage.py).
