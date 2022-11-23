@@ -40,7 +40,7 @@ The earthquake dataset includes 39 columns plus one output column called "damage
 **NOTE**: To study the impact of the building's age feature, land feature ('land_surface_condition') and structure features (i.e. 'foundation_type', 'ground_floor_type', 'roof_type', 'count_floor_pre_eq', 'position'), run "age, land features and structure features.py".
 
 #### CONCLUSION:
-* The number of floors alone has no correlation with the building's damage level. However, buildings with more floors tend to use more robust materials (i.e. RC) as the construction material and thus causing a smaller damage grade on average, while buildings with less floors tend to use more natural materials (e.g. mud, bamboo etc.) for the construction, thus the buildings are more vulnerable to the earthquake.
+* The number of floors alone has no correlation with the building's damage level. However, buildings with more floors tend to use more robust construction materials (i.e. RC) and thus causing a smaller damage grade on average, while buildings with less floors tend to use more natural materials (e.g. mud, bamboo etc.) for the construction, thus the buildings are more vulnerable to the earthquake.
 ---
 #### ```Number of Floors in Building vs Damage Grade```
 
