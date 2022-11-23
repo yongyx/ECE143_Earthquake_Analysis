@@ -8,7 +8,7 @@ The following packages are needed to run this files in this repository:
 - numpy
 - dython
 
-They can be run using the following command: """pip install package_name"""
+They can be run using the following command: '''pip install package_name'''
 
 ## Data Preprocessing 
 Three data files are needed: csv_building_ownership_and_use.csv; csv_building_structure.csv; train_values.csv. 
