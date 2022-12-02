@@ -24,7 +24,7 @@ They can be run using the following command: ```pip install package_name```
    ┗ preprocessed_data.csv
 +--README.md/
 +--visualizations.ipynb/
-+--ECE143 G10 Project Slides - Final ver.pdf
++--ECE143 G10 Project Slides - Final ver.pdf/
 ```
 
 ## Data Preprocessing 
