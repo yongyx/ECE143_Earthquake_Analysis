@@ -17,7 +17,8 @@ They can be run using the following command: ```pip install package_name```
    ┣ damage_by_age.py
    ┣ data_preprocessing.py
    ┣ height_area_age_damage.py
-   ┗ superstructure.py
+   ┣ superstructure.py
+   ┗ ECE143 G10 Project Slides - Final ver.pdf
 +--data/
    ┣ material_damages_by_age_group.csv
    ┗ preprocessed_data.csv
@@ -31,7 +32,7 @@ Previous two files are downloaded from the official website http://eq2015.npc.go
 
 We are unsatisfied with the truncated version provided by the drivendata website as it removes data rows with damage grade (the output feature) greater than 3, which causes a lost of about 40,000 rows of data. Also, the drivendata website uses some random letters to represent the categorical data, which obfuscates the true meaning of the each category. For example, a building from "train_values.csv" has the feature "land_surface_condition" drawn from {'n', 'o', 't'}, while it is represented by {'Flat','Steep slope', 'Moderate slope'} in the original file.
 
-To perform the preprocessing step, download all 3 required files and run "data_preprocessing.py". 
+To perform the preprocessing step, download all 3 required files and run "data_preprocessing.py". Or you could find the preprocessed file in the data folder named "preprocessed_data.csv" directly.
 
 ## Data Analysis Task  
 
