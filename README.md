@@ -17,13 +17,14 @@ They can be run using the following command: ```pip install package_name```
    ┣ damage_by_age.py
    ┣ data_preprocessing.py
    ┣ height_area_age_damage.py
-   ┣ superstructure.py
-   ┗ ECE143 G10 Project Slides - Final ver.pdf
+   ┗ superstructure.py
+   
 +--data/
    ┣ material_damages_by_age_group.csv
    ┗ preprocessed_data.csv
 +--README.md/
 +--visualizations.ipynb/
++--ECE143 G10 Project Slides - Final ver.pdf
 ```
 
 ## Data Preprocessing 
